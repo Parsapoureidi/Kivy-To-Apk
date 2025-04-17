@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = MyTest App
+title = MyTest_App
 
 # (str) Package name
 package.name = Packages
@@ -13,10 +13,10 @@ package.domain = org.My_Shahrood
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
-source.include_exts = png,json,py,mp4,ttf
+#source.include_exts = png,json,py,mp4,ttf
 
 # (list) List of inclusions using pattern matching
-source.include_patterns = *.png,*.mp4,*.ttf
+#source.include_patterns = *.png,*.mp4,*.ttf
 
 # (list) Source files to exclude (let empty to not exclude anything)
 #source.exclude_exts = spec
@@ -37,17 +37,17 @@ version = 1.0
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3==3.7.6,kivy==2.3.0
+requirements = python3==3.7,kivy==2.3.0
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-presplash.filename = %(source.dir)s/Data/Icon.png
+#presplash.filename = %(source.dir)s/Data/Icon.png
 
 # (str) Icon of the application
-icon.filename = %(source.dir)s/Data/Icon.png
+#icon.filename = %(source.dir)s/Data/Icon.png
 
 # (list) Supported orientations
 # Valid options are: landscape, portrait, portrait-reverse or landscape-reverse
